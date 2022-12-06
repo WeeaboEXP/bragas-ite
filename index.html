@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Receitinhas</title> 
+
+   <!-- fonts link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+<!-- header -->
+
+<section class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-utensils"></i> receitinhas. </a>
+
+   <nav class="navbar">
+      <a href="#home">Inicio</a>
+      <a href="#about">Bem-Vindo</a>
+      <a href="#food">Curiosidades</a>
+      <a href="#gallery">Galeria</a>
+      <a href="#blogs">Receitas</a>
+   </nav>
+
+   <div id="menu-btn" class="fas fa-bars"></div>
+
+</section>
+
+<!-- header   -->
+
+<!-- menu  -->
+
+<section class="home" id="home">
+
+   <div class="swiper home-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-1.jpg) no-repeat;">
+            <div class="content">
+               <span>Receitinhas</span>
+               <h3>Receitas Rápidas</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-2.jpg) no-repeat;">
+            <div class="content">
+               <span>Receitinhas</span>
+               <h3>Informações</h3>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide" style="background: url(images/home-slide-3.jpg) no-repeat;">
+            <div class="content">
+               <span>Receitinhas</span>
+               <h3>Use sua criatividade</h3>
+            </div>
+         </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+
+   </div>
+
+</section>
+
+<!-- menu -->
+
+<!-- playlist  -->
+
+<section class="about" id="about">
+
+   <div class="image">
+      <img src="images/about-img.png" alt="">
+   </div>
+
+   <div class="content">
+      <h3 class="title">Bem-vindo ao nosso site</h3>
+      <p>Antes de começarmos pegue um fone, ouça a playlist que fizemos especialmente para você!</p>
+         <iframe src="https://open.spotify.com/embed/playlist/1e9dEZFXHGY0NxR6x2KlF4?si=36c93a909f294e29" width="586" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>    
+      </div>
+   </div>
+
+</section>
+
+<!-- playlist -->
+
+<!-- curiosidades fotos  -->
+
+<section class="food" id="food">
+
+   <div class="heading">  
+      <span>Curiosidades</span>
+      <h3>Informações sobre pratos do cotidiano</h3>
+   </div>
+
+   <div class="swiper food-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide" data-name="food-1">
+            <img src="images/food-img-1.png" alt="">
+            <h3>Noodles / Miojo</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-2">
+            <img src="images/food-img-2.png" alt="">
+            <h3>Salgados</h3>          
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-3">
+            <img src="images/food-img-3.png" alt="">
+            <h3>Doces</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-4">
+            <img src="images/food-img-4.png" alt="">
+            <h3>Refrigerante</h3>
+         </div>
+
+         <div class="swiper-slide slide" data-name="food-5">
+            <img src="images/food-img-5.png" alt="">
+            <h3>Salgadinho</h3>
+         </div>
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- curiosidades fotos -->
+
+<!-- curiosidades  -->
+
+<section class="food-preview-container">
+
+   <div id="close-preview" class="fas fa-times"></div>
+
+   <div class="food-preview" data-target="food-1">
+      <img src="images/food-img-1.png" alt="">
+      <h3>Miojo</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Clique para saber mais sobre esse prato!</p>
+      <a href="info miojo.html" class="btn">Detalhes do prato</a>
+   </div>
+
+   <div class="food-preview" data-target="food-2">
+      <img src="images/food-img-2.png" alt="">
+      <h3>Salgados</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Clique para saber mais sobre esse prato!</p>
+      <a href="info salgados.html" class="btn">Detalhes do prato</a>
+   </div>
+
+   <div class="food-preview" data-target="food-3">
+      <img src="images/food-img-3.png" alt="">
+      <h3>Doces</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Clique para saber mais sobre esse prato!</p>
+      <a href="info doces.html" class="btn">Detalhes do prato</a>
+   </div>
+
+   <div class="food-preview" data-target="food-4">
+      <img src="images/food-img-4.png" alt="">
+      <h3>Refrigerante</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Clique para saber mais sobre esse prato!</p>
+      <a href="info refrigerante.html" class="btn">Detalhes do prato</a>
+   </div>
+
+   <div class="food-preview" data-target="food-5">
+      <img src="images/food-img-5.png" alt="">
+      <h3>Salgadinho</h3>
+      <div class="stars">
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+         <i class="fas fa-star"></i>
+      </div>
+      <p>Clique para saber mais sobre esse prato!</p>
+      <a href="info salgadinho.html" class="btn">Detalhes do prato</a>
+   </div>
+
+</section>
+
+<!-- curiosidades -->
+
+<!-- fotos  -->
+
+<section class="gallery" id="gallery">
+
+   <div class="heading">
+      <span>Galeria</span>
+      <h3>Veja e se inspire</h3>
+   </div>
+
+   <div class="gallery-container">
+
+      <a href="images/food-galler-img-1.jpg" class="box">
+         <img src="images/food-galler-img-1.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-2.jpg" class="box">
+         <img src="images/food-galler-img-2.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-3.jpg" class="box">
+         <img src="images/food-galler-img-3.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-4.jpg" class="box">
+         <img src="images/food-galler-img-4.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+      
+      <a href="images/food-galler-img-5.jpg" class="box">
+         <img src="images/food-galler-img-5.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-6.jpg" class="box">
+         <img src="images/food-galler-img-6.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-7.jpg" class="box">
+         <img src="images/food-galler-img-7.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+      <a href="images/food-galler-img-8.jpg" class="box">
+         <img src="images/food-galler-img-8.jpg">
+         <div class="icon"> <i class="fas fa-plus"></i> </div>
+      </a>
+
+   </div>
+
+</section>
+
+<!-- fotos -->
+
+<!-- receitas  -->
+
+<section class="blogs" id="blogs">
+
+   <div class="heading">
+      <span>Receitas</span>
+      <h3>receitinhas para você fazer!</h3>
+   </div>
+
+   <div class="swiper blogs-slider">
+
+      <div class="swiper-wrapper">
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-1.jpg">
+               <span>tapioca</span>
+            </div>
+            <div class="content">
+               <a href="#" class="title">Tapioca pratica</a>
+               <p>Receita de uma deliciosa tapica!</p>
+               <a href="receita Tapioca.html" class="btn">Receita</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-2.jpg">
+               <span>lanche natural</span>
+            </div>
+            <div class="content">
+               <a href="#" class="title">Sanduíche fit</a>
+               <p>Um lanche natural, bem simples e gostoso!</p>
+               <a href="receita lanche.html" class="btn">Receita</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-3.jpg">
+               <span>saladinha a lá cezar</span>
+            </div>
+            <div class="content">
+               <a href="#" class="title">salada caeser</a>
+               <p>Uma das melhores e mais saborasas saladas que existe!</p>
+               <a href="receita salada caeser.html" class="btn">Receita</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-4.jpg">
+               <span>Batata amassadinha</span>
+            </div>
+            <div class="content">
+               <a href="#" class="title">purê de batata</a>
+               <p>Algo facil mas delicioso!</p>
+               <a href="receita purê.html" class="btn">Receita</a>
+            </div>
+         </div>
+
+         <div class="swiper-slide slide">
+            <div class="image">
+               <img src="images/blog-img-5.jpg">
+               <span>pizza de frigideira</span>
+            </div>
+            <div class="content">
+               <a href="#" class="title">Pizzinha</a>
+               <p>Simplesmente uma maravilha!</p>
+               <a href="receita Pizza.html" class="btn">Receita</a>
+            </div>
+         </div>
+
+      <div class="swiper-pagination"></div>
+
+   </div>
+
+</section>
+
+<!-- receitas -->
+
+<!-- footer  -->
+
+<section class="footer">
+
+   <div class="icons-container">
+
+      <div class="icons">
+         <i class="fas fa-phone"></i>
+         <h3>telefone</h3>
+         <p>(11) 99108-2640</p>
+         <p>(11) 97633-8168</p>
+      </div>
+
+      <div class="icons">
+         <i class="fas fa-envelope"></i>
+         <h3>email</h3>
+         <p>juliasonagere@gmail.com</p>
+         <p>carvalhobragagui@gmail.com</p>
+      </div>
+
+   </div>
+
+
+</section>
+
+<!-- footer  -->
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- customização js link  -->
+<script src="js/script.js"></script>
+
+<script>
+   lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
